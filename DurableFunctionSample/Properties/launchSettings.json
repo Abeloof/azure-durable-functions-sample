@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "DurableFunctionSample": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7051"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 33719,
+      "useSSL": false
+    }
+  }
+}
